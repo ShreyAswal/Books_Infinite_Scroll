@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+div {
+  font-size: 3vmin;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -52,6 +56,13 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+input{
+  margin: 4em;
+  height: 4vh;
+  width: auto;
+  font-size: large;
+  padding: 0.2em;
 }
 
 @media (prefers-color-scheme: light) {
